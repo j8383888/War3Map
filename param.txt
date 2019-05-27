@@ -1,0 +1,5 @@
+file£ºwar3mapimported 
+grenadier£ºgoblin 
+paxingsanshi£ºwar3mapimported        
+rocks fixed uv£ºTextures 
+zigguratfrostmissile£ºAbilities\Weapons\Zigguratfrostmissile

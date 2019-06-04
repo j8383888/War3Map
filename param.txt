@@ -3,3 +3,9 @@ grenadier£ºgoblin
 paxingsanshi£ºwar3mapimported        
 rocks fixed uv£ºTextures 
 zigguratfrostmissile£ºAbilities\Weapons\Zigguratfrostmissile
+
+prisoner:units\creeps\zombie 
+utnregular:textures 	utnregular
+villagerabomination:textures 	abomination
+yanjiusuo:textures		rdzbuildings
+zombie109:units\creeps\zombie 	zombiea

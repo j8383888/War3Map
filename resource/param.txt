@@ -9,3 +9,5 @@ utnregular:textures 	utnregular
 villagerabomination:textures 	abomination
 yanjiusuo:textures		rdzbuildings
 zombie109:units\creeps\zombie 	zombiea
+
+blue_glow2 textures

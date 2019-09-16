@@ -108,11 +108,6 @@ STRING 21
 狗作者之力，激活所有特权！
 }
 
-STRING 22
-{
-激活所有皮肤特效！
-}
-
 STRING 23
 {
 未能挡住僵尸的进攻，游戏失败！请继续努力！
@@ -126,11 +121,6 @@ STRING 24
 STRING 25
 {
 |CffFF8000系统：今天，僵尸将开始大幅度提升进攻势。|r
-}
-
-STRING 26
-{
-|CffFF8000系统：注意！30天开始僵尸军团将派出大量的胖子僵尸，难度将大幅度提升！请提前做好防御！|r
 }
 
 STRING 27
@@ -256,11 +246,6 @@ STRING 44
 |CffFF8000系统：|r|Cffff0000非准备阶段此指令无效！|r
 }
 
-STRING 45
-{
-|CffFF8000系统：|r|Cff99b3ff主机开启了挂机模式！系统已给所有玩家木钱满上，7小时后自动退出游戏|r
-}
-
 STRING 46
 {
 |CffFF8000系统：|r左下方的村庄处，涌现出大量的村民，请各位玩家速速前去保护他们！|CffFF2626（任务失败将会有沉痛的惩罚）|r
@@ -269,11 +254,6 @@ STRING 46
 STRING 47
 {
 |CffFF2626警告：僵尸呼叫空中支援,僵尸飞艇正在袭来！小地图将标识出位置！|r
-}
-
-STRING 48
-{
-一名村民死亡！全体玩家当前收益永久下架3
 }
 
 STRING 49
@@ -306,29 +286,9 @@ STRING 54
 作者：黎明小镇成功生存80天（难度 丧尸汹涌）!激活建造特效|Cff4DFFFF间歇泉|r!
 }
 
-STRING 55
-{
-作者：恭喜通关!激活幸存者皮肤|CffFFFF99五|r|Cffffbf72河|r|Cffff7f4c琴|r|Cffff3f26里|r!
-}
-
-STRING 56
-{
-作者：恭喜通关!激活幸存者皮肤|Cff4DD2FF四系乃|r!
-}
-
-STRING 57
-{
-作者：恭喜通关!激活皮肤|Cff0088FF高级冰霜塔(星空元素)|r!
-}
-
 STRING 58
 {
 提示：5秒后翅膀将自动消失。。
-}
-
-STRING 59
-{
-未能挡住僵尸的进攻，游戏失败！请继续努力！
 }
 
 STRING 61
@@ -6233,12 +6193,6 @@ STRING 1069
 定点狙击
 }
 
-STRING 1070
-// 技能: A01S (定点狙击), Ubertip (提示工具 - 普通 - 扩展)
-{
-|CffFF8000狙击兵 攻击提升10，攻击距离提升200，击退距离提升20，攻击间隔减少0.3s，10%几率触发爆头，并造成两倍伤害。|r
-}
-
 STRING 1071
 // 技能: A01T (货物保持 (驻兵塔)), Name (名字)
 {
@@ -6446,7 +6400,7 @@ STRING 1104
 }
 
 STRING 1105
-// 科技: R00B (防御), Hotkey (热键)
+// 技能: A03S (|Cff2693FF净化|r), Hotkey (热键 - 普通)
 {
 W
 }
@@ -6690,7 +6644,7 @@ STRING 1144
 }
 
 STRING 1145
-// 科技: R000 (防御), Hotkey (热键)
+// 技能: A03W (|Cff00D936修复能源|r), Hotkey (热键 - 普通)
 {
 E
 }
@@ -7211,24 +7165,6 @@ STRING 1231
 点击切换幸存者皮肤
 }
 
-STRING 1232
-// 技能: A036 (|CffFFFF99皮|r|Cffbfeb7e肤|r|Cff7fd863奖|r|Cff3fc548励|r), Name (名字)
-{
-|CffFFFF99皮|r|Cffbfeb7e肤|r|Cff7fd863奖|r|Cff3fc548励|r
-}
-
-STRING 1233
-// 技能: A036 (|CffFFFF99皮|r|Cffbfeb7e肤|r|Cff7fd863奖|r|Cff3fc548励|r), Tip (提示工具 - 普通)
-{
-|CffFFFF99皮|r|Cffbfeb7e肤|r|Cff7fd863奖|r|Cff3fc548励|r
-}
-
-STRING 1234
-// 技能: A036 (|CffFFFF99皮|r|Cffbfeb7e肤|r|Cff7fd863奖|r|Cff3fc548励|r), Ubertip (提示工具 - 普通 - 扩展)
-{
-点击切换皮肤
-}
-
 STRING 1235
 // 技能: A02W (|CffFFFF26黄金时代|r), Hotkey (热键 - 普通)
 {
@@ -7626,7 +7562,7 @@ STRING 1300
 }
 
 STRING 1301
-// 科技: R00G (防御), Hotkey (热键)
+// 科技: R000 (防御), Hotkey (热键)
 {
 E
 }
@@ -7710,7 +7646,7 @@ STRING 1314
 }
 
 STRING 1315
-// 技能: A03Q (|CffFFFF26修复能源|r), Hotkey (热键 - 普通)
+// 技能: A03Q (|CffFFFF26能源开启|r), Hotkey (热键 - 普通)
 {
 Q
 }
@@ -7878,7 +7814,7 @@ STRING 1342
 }
 
 STRING 1343
-// 科技: R00D (防御), Hotkey (热键)
+// 科技: R00B (防御), Hotkey (热键)
 {
 W
 }
@@ -7926,7 +7862,7 @@ STRING 1350
 }
 
 STRING 1351
-// 科技: R00R (防御), Hotkey (热键)
+// 科技: R00D (防御), Hotkey (热键)
 {
 W
 }
@@ -7950,7 +7886,7 @@ STRING 1354
 }
 
 STRING 1355
-// 科技: R00E (防御), Hotkey (热键)
+// 技能: A03X (|CffFF73FF能源再生|r), Hotkey (热键 - 普通)
 {
 R
 }
@@ -7974,7 +7910,7 @@ STRING 1358
 }
 
 STRING 1359
-// 科技: R00F (防御), Hotkey (热键)
+// 科技: R00E (防御), Hotkey (热键)
 {
 R
 }
@@ -7998,7 +7934,7 @@ STRING 1362
 }
 
 STRING 1363
-// 科技: R00I (防御), Hotkey (热键)
+// 科技: R00G (防御), Hotkey (热键)
 {
 E
 }
@@ -8040,7 +7976,7 @@ STRING 1369
 }
 
 STRING 1370
-// 科技: R00S (防御), Hotkey (热键)
+// 科技: R00I (防御), Hotkey (热键)
 {
 E
 }
@@ -8250,7 +8186,7 @@ STRING 1404
 }
 
 STRING 1405
-// 科技: R018 (防御), Hotkey (热键)
+// 科技: R00R (防御), Hotkey (热键)
 {
 W
 }
@@ -8286,7 +8222,7 @@ STRING 1412
 }
 
 STRING 1413
-// 科技: R01C (防御), Hotkey (热键)
+// 科技: R018 (防御), Hotkey (热键)
 {
 W
 }
@@ -8688,7 +8624,7 @@ STRING 1482
 }
 
 STRING 1483
-// 科技: R00T (防御), Hotkey (热键)
+// 科技: R00F (防御), Hotkey (热键)
 {
 R
 }
@@ -8730,13 +8666,13 @@ STRING 1490
 }
 
 STRING 1491
-// 科技: R01B (防御), Hotkey (热键)
+// 科技: R00T (防御), Hotkey (热键)
 {
 R
 }
 
 STRING 1492
-// 科技: R01D (防御), Name (名字)
+// 技能: A03T (高级自爆), EditorSuffix (编辑器后缀)
 {
 月刃
 }
@@ -8964,7 +8900,7 @@ STRING 1529
 }
 
 STRING 1530
-// 科技: R01D (防御), Hotkey (热键)
+// 科技: R01B (防御), Hotkey (热键)
 {
 R
 }
@@ -9132,7 +9068,7 @@ STRING 1557
 }
 
 STRING 1558
-// 科技: R01V (防御), Hotkey (热键)
+// 科技: R01D (防御), Hotkey (热键)
 {
 R
 }
@@ -9201,7 +9137,7 @@ STRING 1569
 
 STRING 1570
 {
-|Cff99E5FF温馨提示：|r|Cff4d7aff出于对地图优化考虑，15天后自动关闭僵尸飘血特效，如有需要。可以通过指令-effon 和 -effoff 进行开关|r
+|Cff99E5FF温馨提示：|r|Cff4d7aff出于对地图优化考虑，10天后自动关闭僵尸飘血特效，如有需要。可以通过指令-effon 和 -effoff 进行开关|r
 }
 
 STRING 1571
@@ -9295,18 +9231,6 @@ STRING 1586
 |CffD90000光|r|Cffec7f26环|r
 }
 
-STRING 1587
-// 技能: A03O (|CffD90000光|r|Cffec7f26环|r), Tip (提示工具 - 普通)
-{
-|Cff9673FF建|r|Cff8396f3造|r|Cff71b9e8特|r|Cff5fdcdd效|r
-}
-
-STRING 1588
-// 技能: A03O (|CffD90000光|r|Cffec7f26环|r), Ubertip (提示工具 - 普通 - 扩展)
-{
-点击切换建造特效
-}
-
 STRING 1589
 // 技能: A03P (|Cff2693FF月之守护|r), Name (名字)
 {
@@ -9398,7 +9322,7 @@ STRING 1607
 }
 
 STRING 1608
-// 科技: R026 (防御), Hotkey (热键)
+// 科技: R01V (防御), Hotkey (热键)
 {
 R
 }
@@ -9507,12 +9431,6 @@ STRING 1634
 对非建筑目标造成1000点真实伤害
 }
 
-STRING 1635
-// 技能: A03Q (|CffFFFF26修复能源|r), Name (名字)
-{
-|CffFFFF26修复能源|r
-}
-
 STRING 1638
 // 科技: R02A (防御), Name (名字)
 {
@@ -9566,12 +9484,6 @@ STRING 1648
 |CffFF5C26自爆|r
 }
 
-STRING 1650
-// 技能: A03R (|CffFF5C26自爆|r), Ubertip (提示工具 - 普通 - 扩展)
-{
-|CffFF5C26立即自爆，对500码内的非建筑单位造成500的真实伤害|r
-}
-
 STRING 1651
 // 科技: R00M (防御), Hotkey (热键)
 {
@@ -9585,7 +9497,7 @@ Q
 }
 
 STRING 1654
-// 科技: R02B (防御), Hotkey (热键)
+// 科技: R00S (防御), Hotkey (热键)
 {
 E
 }
@@ -9606,11 +9518,6 @@ STRING 1657
 // 科技: R02B (防御), Ubertip (提示工具 - 扩展)
 {
 送死流单位，除了送就是送
-}
-
-STRING 1658
-{
-未能保护人类的能源中心，游戏失败！请继续努力！
 }
 
 STRING 1659
@@ -9635,12 +9542,6 @@ STRING 1662
 // 技能: A00M (|CffFF0000红色闪电|r), Tip (提示工具 - 普通)
 {
 |CffFF0000红色闪电|r(|Cffffcc00Q|r)|n
-}
-
-STRING 1663
-// 技能: A03Q (|CffFFFF26修复能源|r), Tip (提示工具 - 普通)
-{
-|CffFFFF26修复能源|r(|Cffffcc00Q|r)|n
 }
 
 STRING 1664
@@ -9678,12 +9579,6 @@ STRING 1671
 |CffFF8000冰塔每次伤害目标时都会给目标上一层buff，buff层数到达|r|Cffff000012|r|Cffff8000层数时，会爆发冰霜新星，对半径400码所有敌方单位的造成|r|Cffff0000400|r|Cffff8000点真实伤害|r
 }
 
-STRING 1675
-// 技能: A03Q (|CffFFFF26修复能源|r), Ubertip (提示工具 - 普通 - 扩展)
-{
- - 需要花费所有玩家 |Cffffff00300金币|r和 |Cff00d936300木头|n|r修复能源中心后，可以解锁新的技能。但是同时会移除能源中心的无敌保护，|Cffff0000能源中心被摧毁，游戏即为失败。|r
-}
-
 STRING 1676
 {
 人类修复能源中心，移除无敌保护，收取所有玩家  和 |Cff00ff00 300木头|r 和 |Cffffcc00 300黄金|r费用，解锁技能|Cffff0000红色闪电|r。请务必保护好能源中心，能源中心被摧毁，即为|Cffff0000游戏失败！|r
@@ -9692,5 +9587,299 @@ STRING 1676
 STRING 1677
 {
 |CffFF0000有玩家金币或木头不足！无法修复！|r
+}
+
+STRING 1678
+// 技能: A03S (|Cff2693FF净化|r), Name (名字)
+{
+|Cff2693FF净化|r
+}
+
+STRING 1679
+// 技能: A03S (|Cff2693FF净化|r), Tip (提示工具 - 普通)
+{
+|Cff2693FF净化|r(|Cffffcc00W|r)|n
+}
+
+STRING 1680
+// 技能: A03S (|Cff2693FF净化|r), Ubertip (提示工具 - 普通 - 扩展)
+{
+可以对|Cff00d936变异的僵尸|r造成当前生命值一半的伤害
+}
+
+STRING 1681
+// 科技: R01C (防御), Hotkey (热键)
+{
+W
+}
+
+STRING 1682
+// 技能: A03T (高级自爆), Name (名字)
+{
+高级自爆
+}
+
+STRING 1683
+// 技能: A03T (高级自爆), Tip (提示工具 - 普通)
+{
+高级自爆
+}
+
+STRING 1685
+// 科技: R01D (防御), Name (名字)
+{
+月刃
+}
+
+STRING 1686
+// 科技: R02C (防御), Hotkey (热键)
+{
+Q
+}
+
+STRING 1687
+// 科技: R02C (防御), Name (名字)
+{
+高级自爆
+}
+
+STRING 1688
+// 科技: R02C (防御), Tip (提示工具)
+{
+研究高级自爆(|Cffffcc00Q|r)
+}
+
+STRING 1689
+// 科技: R02C (防御), Ubertip (提示工具 - 扩展)
+{
+可以强化自爆工兵
+}
+
+STRING 1695
+{
+未能挡住僵尸的进攻，游戏失败！请继续努力！
+}
+
+STRING 1700
+// 科技: R02D (防御), EditorSuffix (编辑器后缀)
+{
+星空元素
+}
+
+STRING 1701
+{
+未能保护人类的能源中心，游戏失败！请继续努力！
+}
+
+STRING 1704
+{
+|CffFF9326提示：该地形为特殊地形。|r
+|Cff00d9001、人口上限默认为250，摧毁僵尸的禁忌熔炉可以增加最大人口上限|r
+|Cffffd24d2、每20天会触发保护村民任务，任务失败将会有惩罚|r
+}
+
+STRING 1705
+{
+|CffFF26263、每5天会有僵尸船前来入侵，每10天会有僵尸飞艇，
+保护好能源中心，能源中心被摧毁游戏失败，n2开始僵尸房会进入暴怒状态
+挨打图，切莫做孤狼。|r
+}
+
+STRING 1706
+{
+|CffFF8000系统：注意！30天开始僵尸军团将派出大量的胖子僵尸，难度将大幅度提升！请提前做好防御！|r
+}
+
+STRING 1707
+{
+|CffFF8000系统：注意！30天将强制解除能源中心无敌保护！请注意防守！|r
+}
+
+STRING 1708
+// 技能: A03Q (|CffFFFF26能源开启|r), Ubertip (提示工具 - 普通 - 扩展)
+{
+ - 需要花费所有玩家 |Cffffff00300金币|r和 |Cff00d936300木头|n|r修复能源中心后，可以解锁新的技能。但是同时会移除能源中心的无敌保护，|Cffff0000能源中心被摧毁，游戏即为失败。|r|n|Cffff5c2630天强制解除无敌保护。|r
+}
+
+STRING 1709
+{
+|CffFF8000系统：|r|Cff99b3ff主机开启了挂机模式！系统已给所有玩家木钱满上，7小时后自动退出游戏|r
+}
+
+STRING 1710
+// 科技: R02D (防御), Name (名字)
+{
+已经绝版
+}
+
+STRING 1711
+// 科技: R02D (防御), Tip (提示工具)
+{
+已经绝版
+}
+
+STRING 1713
+{
+作者：恭喜通关!激活幸存者皮肤|CffFFFF99五|r|Cffffbf72河|r|Cffff7f4c琴|r|Cffff3f26里|r!
+}
+
+STRING 1714
+{
+作者：恭喜通关!激活幸存者皮肤|Cff4DD2FF四系乃|r!
+}
+
+STRING 1715
+{
+作者：恭喜通关!激活皮肤|Cffff0000高级火塔(灰烬之炎)!|r
+}
+
+STRING 1716
+// 技能: A03O (|CffD90000光|r|Cffec7f26环|r), Tip (提示工具 - 普通)
+{
+|CffD90000光|r|Cffec7f26环|r
+}
+
+STRING 1717
+// 技能: A03O (|CffD90000光|r|Cffec7f26环|r), Ubertip (提示工具 - 普通 - 扩展)
+{
+点击切换|Cffd90000光|r|Cffec7f26环|r
+}
+
+STRING 1718
+// 技能: A03U (|Cff99E5FF星之守护（光）|r), Name (名字)
+{
+|Cff99E5FF星之守护（光）|r
+}
+
+STRING 1719
+// 技能: A03U (|Cff99E5FF星之守护（光）|r), Tip (提示工具 - 普通)
+{
+|Cff99E5FF星之守护（光）|r
+}
+
+STRING 1720
+// 技能: A03U (|Cff99E5FF星之守护（光）|r), Ubertip (提示工具 - 普通 - 扩展)
+{
+切换主角光环至|Cff99e5ff星之守护（光）|r
+}
+
+STRING 1721
+// 技能: A03V (|Cff8C2300星之守护（暗）|r), Name (名字)
+{
+|Cff8C2300星之守护（暗）|r
+}
+
+STRING 1722
+// 技能: A03V (|Cff8C2300星之守护（暗）|r), Tip (提示工具 - 普通)
+{
+|Cff8C2300星之守护（暗）|r
+}
+
+STRING 1723
+// 技能: A03V (|Cff8C2300星之守护（暗）|r), Ubertip (提示工具 - 普通 - 扩展)
+{
+切换主角光环至|Cff8c2300星之守护（暗）|r
+}
+
+STRING 1727
+// 技能: AEsf (群星坠落), Ubertip (提示工具 - 普通 - 扩展)
+{
+召唤出一阵阵的流星雨，每阵流星雨对敌人造成<AEsf,DataA1>点的伤害。持续<AEsf,Dur1>秒。|n|n|Cff646464迢迢河汉间，有星火坠地如彗锋。奢望着能生死相拥|r
+}
+
+STRING 1728
+// 技能: A01S (定点狙击), Ubertip (提示工具 - 普通 - 扩展)
+{
+|CffFF8000狙击兵 攻击提升10，攻击距离提升200，击退距离提升20，攻击间隔减少0.3s。|r
+}
+
+STRING 1729
+// 技能: A03R (|CffFF5C26自爆|r), Ubertip (提示工具 - 普通 - 扩展)
+{
+|CffFF5C26立即自爆。|n|r|Cffffff73对450码内的非建筑单位造成500的真实伤害。|n对450码内建筑单位造成250点的伤害，但自爆不会建筑血量使建筑血量低于100。（简单的说就是无法炸毁建筑单位）|r
+}
+
+STRING 1730
+// 技能: A03T (高级自爆), Ubertip (提示工具 - 普通 - 扩展)
+{
+|CffFFFF73自爆只会对自己造成400点真实伤害|r
+}
+
+STRING 1731
+// 技能: A03Q (|CffFFFF26能源开启|r), Name (名字)
+{
+|CffFFFF26能源开启|r
+}
+
+STRING 1732
+// 技能: A03Q (|CffFFFF26能源开启|r), Tip (提示工具 - 普通)
+{
+|CffFFFF26能源开启|r(|Cffffcc00Q|r)|n
+}
+
+STRING 1733
+// 技能: A03W (|Cff00D936修复能源|r), Name (名字)
+{
+|Cff00D936修复能源|r
+}
+
+STRING 1734
+// 技能: A03W (|Cff00D936修复能源|r), Tip (提示工具 - 普通)
+{
+|Cff00D936修复能源|r(|Cffffcc00E|r)|n
+}
+
+STRING 1735
+// 技能: A03W (|Cff00D936修复能源|r), Ubertip (提示工具 - 普通 - 扩展)
+{
+可以使能源中心恢复1000生命
+}
+
+STRING 1736
+// 技能: A03X (|CffFF73FF能源再生|r), Name (名字)
+{
+|CffFF73FF能源再生|r
+}
+
+STRING 1737
+// 技能: A03X (|CffFF73FF能源再生|r), Tip (提示工具 - 普通)
+{
+|CffFF73FF能源再生|r(|Cffffcc00R|r)|n
+}
+
+STRING 1738
+// 技能: A03X (|CffFF73FF能源再生|r), Ubertip (提示工具 - 普通 - 扩展)
+{
+所有玩家增加|Cffffff73100金钱|r和|Cff00d936100木头|r
+}
+
+STRING 1739
+// 科技: R026 (防御), Hotkey (热键)
+{
+R
+}
+
+STRING 1740
+// 科技: R02B (防御), Hotkey (热键)
+{
+E
+}
+
+STRING 1741
+// 技能: A036 (|CffD90000数|r|Cffe23f13据|r|Cffec7f26存|r|Cfff5bf39档|r), Name (名字)
+{
+|CffD90000数|r|Cffe23f13据|r|Cffec7f26存|r|Cfff5bf39档|r
+}
+
+STRING 1742
+// 技能: A036 (|CffD90000数|r|Cffe23f13据|r|Cffec7f26存|r|Cfff5bf39档|r), Tip (提示工具 - 普通)
+{
+|CffD90000数|r|Cffe23f13据|r|Cffec7f26存|r|Cfff5bf39档|r
+}
+
+STRING 1743
+// 技能: A036 (|CffD90000数|r|Cffe23f13据|r|Cffec7f26存|r|Cfff5bf39档|r), Ubertip (提示工具 - 普通 - 扩展)
+{
+|CffFFFF73兵种主角皮肤，建筑特效，翅膀光环等存档数据|r
 }
 

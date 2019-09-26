@@ -5381,7 +5381,7 @@ STRING 940
 }
 
 STRING 941
-// 单位: h055 (超级兵工厂), Hotkey (热键)
+// 单位: h055 (|CffFFFF00超级兵工厂|r), Hotkey (热键)
 {
 W
 }
@@ -5633,7 +5633,7 @@ STRING 985
 }
 
 STRING 986
-// 单位: h01P (无畏者), Hotkey (热键)
+// 单位: h01P (|CffFFFF00无畏者|r), Hotkey (热键)
 {
 Q
 }
@@ -8171,7 +8171,7 @@ STRING 1428
 }
 
 STRING 1429
-// 科技: R00X (防御), Hotkey (热键)
+// 科技: R012 (防御), Hotkey (热键)
 {
 S
 }
@@ -8267,7 +8267,7 @@ STRING 1447
 }
 
 STRING 1448
-// 科技: R012 (防御), Hotkey (热键)
+// 科技: R016 (防御), Hotkey (热键)
 {
 S
 }
@@ -8348,12 +8348,6 @@ STRING 1462
 // 科技: R015 (防御), Ubertip (提示工具 - 扩展)
 {
 研究传说随机建筑
-}
-
-STRING 1463
-// 科技: R016 (防御), Hotkey (热键)
-{
-S
 }
 
 STRING 1464
@@ -9938,7 +9932,7 @@ STRING 1795
 }
 
 STRING 1796
-// 科技: R02B (防御), Hotkey (热键)
+// 科技: R00X (防御), Hotkey (热键)
 {
 X
 }
@@ -10202,7 +10196,7 @@ Z
 }
 
 STRING 1852
-// 科技: R02G (防御), Hotkey (热键)
+// 科技: R02B (防御), Hotkey (热键)
 {
 X
 }
@@ -10433,38 +10427,14 @@ STRING 1901
 W
 }
 
-STRING 1903
-// 单位: h01P (无畏者), Name (名字)
-{
-无畏者
-}
-
-STRING 1904
-// 单位: h01P (无畏者), Tip (提示工具 - 基础)
-{
-无畏者(|Cffffcc00W|r)
-}
-
 STRING 1906
 // 科技: R02C (防御), Hotkey (热键)
 {
 Q
 }
 
-STRING 1907
-// 单位: h055 (超级兵工厂), Name (名字)
-{
-超级兵工厂
-}
-
-STRING 1908
-// 单位: h055 (超级兵工厂), Tip (提示工具 - 基础)
-{
-低级兵工厂(|Cffffcc00Q|r)
-}
-
 STRING 1909
-// 单位: h055 (超级兵工厂), Ubertip (提示工具 - 扩展)
+// 单位: h055 (|CffFFFF00超级兵工厂|r), Ubertip (提示工具 - 扩展)
 {
 高级军事建筑物|n|Cffd8d800可以产出传说兵种|r
 }
@@ -10476,7 +10446,7 @@ W
 }
 
 STRING 1912
-// 单位: h01P (无畏者), Ubertip (提示工具 - 扩展)
+// 单位: h01P (|CffFFFF00无畏者|r), Ubertip (提示工具 - 扩展)
 {
 |CffFF2626传说作战单位|r|n1、较高生命值和恢复能力|n2、可以对僵尸造成|Cff00b200群体击退效果|r|Cffd96d00（同一个僵尸击退次数最大40次），对无法击退的单位有额外的技能效果。|n|r2、超高的攻击速度，对僵尸造成致命打击。
 }
@@ -10509,5 +10479,59 @@ STRING 1917
 // 科技: R00X (防御), Name (名字)
 {
 研究|Cffff73ff水晶发电机|r
+}
+
+STRING 1918
+// 单位: h01P (|CffFFFF00无畏者|r), Name (名字)
+{
+|CffFFFF00无畏者|r
+}
+
+STRING 1919
+// 单位: h01P (|CffFFFF00无畏者|r), Tip (提示工具 - 基础)
+{
+|CffFFFF00无畏者|r(|Cffffcc00Q|r)
+}
+
+STRING 1920
+// 科技: R02H (防御), Hotkey (热键)
+{
+A
+}
+
+STRING 1921
+// 科技: R02H (防御), Name (名字)
+{
+训练无畏者技术
+}
+
+STRING 1923
+// 科技: R02H (防御), Ubertip (提示工具 - 扩展)
+{
+研究传说兵种,可以对僵尸造成|Cff00b200群体击退效果|r
+}
+
+STRING 1924
+// 单位: h055 (|CffFFFF00超级兵工厂|r), Name (名字)
+{
+|CffFFFF00超级兵工厂|r
+}
+
+STRING 1925
+// 单位: h055 (|CffFFFF00超级兵工厂|r), Tip (提示工具 - 基础)
+{
+|CffFFFF00超级兵工厂|r(|Cffffcc00Q|r)
+}
+
+STRING 1926
+// 科技: R02G (防御), Hotkey (热键)
+{
+X
+}
+
+STRING 1927
+// 科技: R02H (防御), Tip (提示工具)
+{
+训练无畏者技术(|Cffffcc00A|r)
 }
 
